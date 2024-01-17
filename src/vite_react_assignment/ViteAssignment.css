@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.homeHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: rgb(201, 181, 181);
+}
+
+.homeHeadingContainer{
+    font-size: 2em;
+    font-weight: 580;
+}
+
+.homeLoginContainer,.homeLogoutContainer{
+    background-color: #031810;
+    color: white;
+    padding: 0.6em 1em;
+    margin: 8px 0;
+    border-radius: 0.6em;
+    cursor: pointer;
+}
+
+.loginFormParentContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.loginFormContainer{
+    border:1px solid gray;
+    padding: 1em 2em 1.5em 2em;
+    width: max-content;
+    background-color:rgba(0, 0, 0, 0.09);
+    border-radius: 0.4em;
+}
+
+.loginHeadingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8em;
+}
+
+.loginHeadingContainer span{
+    font-size: 1.6em;
+    font-weight: 570;
+}
